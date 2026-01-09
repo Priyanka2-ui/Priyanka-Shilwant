@@ -94,6 +94,9 @@ async function initializeApp() {
   return initPromise;
 }
 
+// Export the app for direct use
+export { app };
+
 // For Vercel serverless functions, export the app handler
 export default async function handler(req: any, res: any) {
   await initializeApp();
