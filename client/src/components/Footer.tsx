@@ -7,7 +7,7 @@ export function Footer() {
         <div>
           <h2 className="text-2xl font-display font-bold mb-2">Priyanka Shilwant</h2>
           <p className="text-muted-foreground text-sm">
-            Building intelligent backend systems & agentic workflows.
+            Building intelligent backend systems and agentic workflows.
           </p>
         </div>
 

@@ -36,27 +36,27 @@ import { Button } from "@/components/ui/button";
 
 const skills = [
   {
-    category: "Backend & APIs",
+    category: "Backend and APIs",
     icon: <Database className="w-6 h-6" />,
     items: ["Python", "FastAPI", "REST APIs", "PostgreSQL"]
   },
   {
-    category: "GenAI & AI Systems",
+    category: "GenAI and AI Systems",
     icon: <Bot className="w-6 h-6" />,
     items: ["RAG", "LangChain", "LangGraph", "CrewAI", "Prompt Engineering"]
   },
   {
-    category: "Model Training & Ops",
+    category: "Model Training and Ops",
     icon: <Cpu className="w-6 h-6" />,
     items: ["Unsloth", "LoRA / QLoRA", "Hugging Face", "LLMOps", "MLflow"]
   },
   {
-    category: "Voice & Multimodal AI",
+    category: "Voice and Multimodal AI",
     icon: <Mic className="w-6 h-6" />,
     items: ["Azure OpenAI", "Realtime Voice APIs", "TTS / STT", "OCR-based RAG"]
   },
   {
-    category: "Frontend & Tools",
+    category: "Frontend and Tools",
     icon: <Code2 className="w-6 h-6" />,
     items: ["React", "Next.js", "Tailwind CSS", "Git", "Vector DBs"]
   }
@@ -74,12 +74,12 @@ const projects = [
     tech: ["FastAPI", "LangGraph", "LangChain", "OCR", "Tavily"]
   },
   {
-    title: "AI Coding & Website Generation Platform",
+    title: "AI Coding and Website Generation Platform",
     description: "A prompt-based coding agent that generates executable code and complete Next.js websites with live previews.",
     tech: ["FastAPI", "Next.js", "Azure OpenAI", "E2B Sandbox"]
   },
   {
-    title: "LLM & VLM Fine-tuning Pipelines",
+    title: "LLM and VLM Fine-tuning Pipelines",
     description: "Fine-tuned multiple LLMs and VLMs using Unsloth with LoRA/QLoRA and published models to Hugging Face.",
     tech: ["Unsloth", "Hugging Face", "LoRA", "QLoRA"]
   },

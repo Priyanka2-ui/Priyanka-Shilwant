@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,7 @@
 
 :root {
   --font-sans: 'Inter', sans-serif;
-  --font-display: 'Playfair Display', serif;
+  --font-display: 'Inter', sans-serif;
 
   /* Neutral, Elegant Palette */
   --background: 0 0% 98%;
@@ -40,10 +40,15 @@
   }
   body {
     @apply bg-background text-foreground font-sans antialiased selection:bg-primary/10 selection:text-primary;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
     @apply font-semibold tracking-tight;
+    line-height: 1.3;
   }
 }
 

@@ -1,5 +1,5 @@
 import { z } from 'zod';
-import { insertInquirySchema, inquiries } from './schema';
+import { insertInquirySchema, type Inquiry } from './schema';
 
 export const errorSchemas = {
   validation: z.object({
@@ -18,7 +18,7 @@ export const api = {
       path: '/api/contact',
       input: insertInquirySchema,
       responses: {
-        200: z.custom<typeof inquiries.$inferSelect>(),
+        200: z.custom<Inquiry>(),
         400: errorSchemas.validation,
       },
     },
