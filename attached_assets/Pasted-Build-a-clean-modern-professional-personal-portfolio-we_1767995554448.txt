@@ -1,0 +1,149 @@
+Build a clean, modern, professional personal portfolio website for a GenAI Engineer named Priyanka Shilwant.
+
+The website should feel minimal, elegant, and recruiter-friendly — not flashy, not cluttered. 
+Target audience: AI/GenAI recruiters, engineering managers, and startup founders.
+
+Use a modern full-stack setup with:
+- Frontend: Next.js (App Router), React, Tailwind CSS
+- Clean typography, good spacing, subtle animations
+- Mobile-first and fully responsive
+
+-----------------------------------
+SECTION 1: HERO
+-----------------------------------
+Show a short professional intro:
+
+Name: Priyanka Shilwant  
+Role: GenAI Engineer | FastAPI | Agentic RAG | Voice AI  
+
+Short tagline (1–2 lines):
+"GenAI Engineer focused on building backend AI systems, agentic RAG pipelines, and real-time voice applications."
+
+Add two buttons:
+- “View Projects”
+- “Contact Me”
+
+-----------------------------------
+SECTION 2: ABOUT
+-----------------------------------
+Include a concise but strong bio:
+
+"I’m a GenAI Engineer Intern at GenAIKit Software Solution Private Limited. 
+I work mainly on backend AI systems using FastAPI, focusing on retrieval-augmented generation, agent-based workflows, and voice-enabled AI applications.
+I enjoy building practical AI systems that are reliable, scalable, and easy to integrate."
+
+-----------------------------------
+SECTION 3: SKILLS
+-----------------------------------
+Display skills in grouped cards or lists:
+
+Backend & APIs:
+- Python
+- FastAPI
+- REST APIs
+- PostgreSQL
+
+GenAI & AI Systems:
+- Retrieval-Augmented Generation (RAG)
+- LangChain
+- LangGraph
+- CrewAI
+- Prompt Engineering
+
+Model Training & Ops:
+- Unsloth
+- LoRA / QLoRA
+- Hugging Face
+- LLMOps
+- MLflow
+
+Voice & Multimodal AI:
+- Azure OpenAI
+- Realtime Voice APIs
+- TTS / STT
+- OCR-based RAG
+
+Frontend & Tools:
+- React
+- Next.js
+- Tailwind CSS
+- Git
+- LangSmith
+- Vector Databases (FAISS, Pinecone)
+
+-----------------------------------
+SECTION 4: EXPERIENCE
+-----------------------------------
+GenAI Engineer Intern  
+GenAIKit Software Solution Private Limited | Remote | Apr 2025 – Present
+
+- Built GenAI APIs using FastAPI for RAG pipelines, agent workflows, and multimodal features
+- Worked on agentic RAG systems with routing across LLM responses, web search, PDF RAG, and OCR-based RAG
+- Built coding agents and website generators using Azure OpenAI and E2B sandbox
+- Fine-tuned LLMs and VLMs using Unsloth and Hugging Face with LoRA/QLoRA
+- Built real-time voice AI systems and AI-powered automation tools
+
+-----------------------------------
+SECTION 5: PROJECTS
+-----------------------------------
+Display projects as cards with title, short description, and tech stack.
+
+Project 1:
+Title: Real-Time Personal Voice Assistant  
+Description:
+A real-time voice-to-voice AI assistant that answers questions about professional experience and projects using Azure OpenAI Realtime APIs.
+Tech: FastAPI, Azure OpenAI Realtime API
+
+Project 2:
+Title: Agentic RAG Platform with Intelligent Routing  
+Description:
+An advanced RAG system with memory and intelligent routing across LLM responses, web search, PDF RAG, and OCR-based RAG.
+Tech: FastAPI, LangGraph, LangChain, OCR, Tavily
+
+Project 3:
+Title: AI Coding & Website Generation Platform  
+Description:
+A prompt-based coding agent that generates executable code and complete Next.js websites with live previews.
+Tech: FastAPI, Next.js, Azure OpenAI, E2B Sandbox
+
+Project 4:
+Title: LLM & VLM Fine-tuning Pipelines  
+Description:
+Fine-tuned multiple LLMs and VLMs using Unsloth with LoRA/QLoRA and published models to Hugging Face.
+Tech: Unsloth, Hugging Face, LoRA, QLoRA
+
+Project 5:
+Title: Automated PPT Voice Narration System  
+Description:
+A system that generates slide-by-slide voice narration from PowerPoint files.
+Tech: FastAPI, Azure OpenAI, TTS
+
+-----------------------------------
+SECTION 6: CONTACT
+-----------------------------------
+Provide contact details clearly:
+
+Email: priyankashilwant321@gmail.com  
+Phone: +91 78875 09502  
+GitHub: https://github.com/Priyanka2-ui  
+
+Add a simple contact form (Name, Email, Message).
+
+-----------------------------------
+DESIGN & UX REQUIREMENTS
+-----------------------------------
+- Clean layout, good whitespace
+- Neutral colors (light background, dark text)
+- Subtle hover effects
+- Smooth scrolling
+- No stock photos
+- No unnecessary animations
+
+-----------------------------------
+OUTPUT REQUIREMENTS
+-----------------------------------
+- Generate complete Next.js pages/components
+- Use Tailwind CSS for styling
+- Keep code clean and readable
+- SEO-friendly headings
+- Ready to deploy
