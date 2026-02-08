@@ -7,26 +7,26 @@ import { insertContactMessageSchema, type InsertContactMessage } from "@shared/s
 import { useSubmitContact } from "@/hooks/use-contact";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
-import { 
-  ArrowRight, 
-  Github, 
-  Mail, 
-  Phone, 
-  MapPin, 
-  ExternalLink, 
-  Code2, 
-  Database, 
-  Bot, 
+import {
+  ArrowRight,
+  Github,
+  Mail,
+  Phone,
+  MapPin,
+  ExternalLink,
+  Code2,
+  Database,
+  Bot,
   Mic,
   Cpu
 } from "lucide-react";
-import { 
-  Form, 
-  FormControl, 
-  FormField, 
-  FormItem, 
-  FormLabel, 
-  FormMessage 
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -109,7 +109,7 @@ const staggerContainer = {
 
 export default function Home() {
   const submitContact = useSubmitContact();
-  
+
   const form = useForm<InsertContactMessage>({
     resolver: zodResolver(insertContactMessageSchema),
     defaultValues: {
@@ -143,7 +143,7 @@ export default function Home() {
             className="max-w-3xl"
           >
             <motion.p variants={fadeInUp} className="text-muted-foreground font-medium mb-4 tracking-wide text-sm uppercase">
-              Portfolio
+              GenAI Engineer
             </motion.p>
             <motion.h1 variants={fadeInUp} className="text-5xl md:text-7xl lg:text-8xl font-display font-bold mb-6 leading-[1.1]">
               Priyanka Shilwant
@@ -154,7 +154,7 @@ export default function Home() {
             <motion.p variants={fadeInUp} className="text-lg text-muted-foreground mb-10 max-w-2xl leading-relaxed">
               "GenAI Engineer focused on building backend AI systems, agentic RAG pipelines, and real-time voice applications."
             </motion.p>
-            
+
             <motion.div variants={fadeInUp} className="flex flex-col sm:flex-row gap-4">
               <ScrollLink to="projects" smooth={true} duration={600} offset={-50}>
                 <Button size="lg" className="rounded-full text-base px-8 h-12 shadow-lg shadow-primary/5 hover:shadow-xl hover:-translate-y-0.5 transition-all">
@@ -259,6 +259,28 @@ export default function Home() {
             variants={fadeInUp}
             className="relative border-l-2 border-border pl-8 md:pl-12 py-4 space-y-12"
           >
+            {/* GenAI Fullstack Engineer */}
+            <div className="relative">
+              <span className="absolute -left-[41px] md:-left-[57px] top-2 w-5 h-5 rounded-full bg-primary border-4 border-background" />
+              <div className="mb-6">
+                <h3 className="text-2xl font-display font-bold">GenAI Fullstack Engineer</h3>
+                <div className="text-muted-foreground flex items-center gap-2 mt-1">
+                  <span className="font-medium text-foreground">GenAIKit Software Solution Private Limited</span>
+                  <span>•</span>
+                  <span>Remote</span>
+                  <span>•</span>
+                  <span>Jan 2025 – Present</span>
+                </div>
+              </div>
+
+              <ul className="space-y-3 text-muted-foreground text-lg list-disc pl-5">
+                <li>Built GenAI APIs with FastAPI for agent workflows, RAG pipelines, sandboxed code execution, and multimodal features</li>
+                <li>Developed Agentic RAG using LangGraph with routing across LLMs, web search, PDF/OCR RAG, query rewriting, and reranking</li>
+                <li>Created a coding agent and prompt-to-Next.js generator using Azure OpenAI and E2B sandbox, plus fine-tuned LLM/VLM models with LoRA/QLoRA</li>
+              </ul>
+            </div>
+
+            {/* GenAI Engineer Intern */}
             <div className="relative">
               <span className="absolute -left-[41px] md:-left-[57px] top-2 w-5 h-5 rounded-full bg-primary border-4 border-background" />
               <div className="mb-6">
@@ -268,16 +290,13 @@ export default function Home() {
                   <span>•</span>
                   <span>Remote</span>
                   <span>•</span>
-                  <span>Apr 2025 – Present</span>
+                  <span>Jan 2024 – Dec 2024</span>
                 </div>
               </div>
-              
+
               <ul className="space-y-3 text-muted-foreground text-lg list-disc pl-5">
-                <li>Built GenAI APIs using FastAPI for RAG pipelines, agent workflows, and multimodal features</li>
-                <li>Worked on agentic RAG systems with routing across LLM responses, web search, PDF RAG, and OCR-based RAG</li>
-                <li>Built coding agents and website generators using Azure OpenAI and E2B sandbox</li>
-                <li>Fine-tuned LLMs and VLMs using Unsloth and Hugging Face with LoRA/QLoRA</li>
-                <li>Built real-time voice AI systems and AI-powered automation tools</li>
+                <li>Implemented backend FastAPI services and RAG pipelines for multimodal AI workflows</li>
+                <li>Worked on LangGraph routing, web/PDF/OCR retrieval, and assisted in LLM/VLM fine-tuning using Hugging Face + Unsloth</li>
               </ul>
             </div>
           </motion.div>
@@ -318,7 +337,7 @@ export default function Home() {
                   <p className="text-muted-foreground mb-6 flex-grow leading-relaxed">
                     {project.description}
                   </p>
-                  
+
                   <div className="mt-auto">
                     <h4 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">Tech Stack</h4>
                     <div className="flex flex-wrap gap-2">
@@ -352,8 +371,8 @@ export default function Home() {
               </p>
 
               <div className="space-y-6">
-                <a 
-                  href="mailto:priyankashilwant321@gmail.com" 
+                <a
+                  href="mailto:priyankashilwant321@gmail.com"
                   className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -361,9 +380,9 @@ export default function Home() {
                   </div>
                   <span className="text-lg font-medium">priyankashilwant321@gmail.com</span>
                 </a>
-                
-                <a 
-                  href="tel:+917887509502" 
+
+                <a
+                  href="tel:+917887509502"
                   className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-full bg-secondary flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -372,8 +391,8 @@ export default function Home() {
                   <span className="text-lg font-medium">+91 78875 09502</span>
                 </a>
 
-                <a 
-                  href="https://github.com/Priyanka2-ui" 
+                <a
+                  href="https://github.com/Priyanka2-ui"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group"
@@ -428,18 +447,18 @@ export default function Home() {
                       <FormItem>
                         <FormLabel>Message</FormLabel>
                         <FormControl>
-                          <Textarea 
-                            placeholder="Tell me about your project..." 
-                            className="min-h-[150px] bg-background resize-none" 
-                            {...field} 
+                          <Textarea
+                            placeholder="Tell me about your project..."
+                            className="min-h-[150px] bg-background resize-none"
+                            {...field}
                           />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
                     )}
                   />
-                  <Button 
-                    type="submit" 
+                  <Button
+                    type="submit"
                     className="w-full h-12 text-base font-semibold"
                     disabled={submitContact.isPending}
                   >
